@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 26, 104);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+
+    background-color: rgb(255, 255, 255);
+    height: 620px;
+    width: 360px;
+    margin: auto;
+    border-radius:  3px;
+
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    height:280px;
+    width: 360px;
+    border-radius:  3px;
+
+}
+h1{
+       
+    padding-top: 15px; 
+    text-align: center;
+}
+h4{
+    text-align: center;
+    
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+ form label{
+    display:flex;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 7px;
+}
+input[type=submit]{
+    width: 320px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #49c1a2;
+    color: white;
+   
+}
+input[type=submit]:hover{
+    background-color: #133f33;
+    color: white;
+    cursor: pointer;
+  
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+
+.para{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+.para a{
+    color: #49c1a2;
+
+}
+
